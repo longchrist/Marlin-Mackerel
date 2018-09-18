@@ -285,7 +285,7 @@ debug notes:
 #define LYMAN_EXTRUDER
 
 //comment the next line out if there is no filament sensor
-#define FILAMENT_SENSOR
+//#define FILAMENT_SENSOR
 
 
 #define DEFAULT_EXTRUDER_RPM 12 //define default extruder RPM
@@ -300,8 +300,8 @@ debug notes:
 #define DEFAULT_WINDER_SPEED 35  //default winder speed (0-DEFAULT_WINDER_RPM_FACTOR)
 
 
-#define DESIRED_FILAMENT_DIA 2.8 //define the default desired Filament diameter
-#define PREHEAT_EXTRUDER_TEMP 185  //Set to 185 deg C based on Hugh's suggestion
+#define DESIRED_FILAMENT_DIA 1.75 //define the default desired Filament diameter
+#define PREHEAT_EXTRUDER_TEMP 200  //Set to 185 deg C based on Hugh's suggestion
 
 #define  DEFAULT_fwidthKp 0.020
 #define  DEFAULT_fwidthKi 0.020
